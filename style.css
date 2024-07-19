@@ -7,10 +7,10 @@
     font-family: "Jost", sans-serif;
 }
 :root{
-    --bg--color: #e3eeef;
-    --text-color: #1f2833;
+    --bg--color: black;
+    --text-color: #fff;
     --main-color: #d63717;
-    --other-color: black;
+    --other-color: #d1cdcd;
     --h1-font: 5rem;
     --p-font: 1.1rem;
 }
@@ -273,6 +273,7 @@ section{
 .skills .box-container .box h3{
     font-size: 22px;
     padding: 10px 0;
+    color: var(--bg--color);
 }
 .skills .box-container .box:hover{
     box-shadow: var(--other-color);
